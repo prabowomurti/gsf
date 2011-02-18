@@ -1,0 +1,11 @@
+{
+	"name" 		: "Google Search Focuser on Chrome",
+	"version"	: "0.1",
+	"description"	: "Press Alt+S, focus to search text input field",
+	"content_scripts": [
+   	 {
+      	"matches": ["http://www.google.co.id/*"],
+      	"js": ["focuser.js"]
+    	}
+  	]
+}
